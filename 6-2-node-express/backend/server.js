@@ -3,7 +3,7 @@ import cors from "cors";
 import { getRandomQuote } from "./quotes.js";
 
 {/*write code for cors*/}
-
+app.use(cors());
 
 {/*write code to define routes*/}
 
