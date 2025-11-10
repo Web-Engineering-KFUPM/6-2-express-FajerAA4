@@ -9,3 +9,8 @@ import { getRandomQuote } from "./quotes.js";
 
 
 {/*write code to create server*/}
+const app=express();
+const port =3000;
+app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
+});
