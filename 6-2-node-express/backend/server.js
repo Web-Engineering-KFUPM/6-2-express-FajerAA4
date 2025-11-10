@@ -4,6 +4,9 @@ import { getRandomQuote } from "./quotes.js";
 
 {/*write code for cors*/}
 app.use(cors());
+app.get("/", (req, res) => {
+    res.send("Welcome to the Quote Generator API");
+});
 
 {/*write code to define routes*/}
 
